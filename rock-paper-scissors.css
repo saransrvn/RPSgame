@@ -27,7 +27,9 @@ img {
 .reset-button,.autoplay-button{
   font-size:15px;
   padding:8px 15px;
+  font-weight:bold;
 }
 .score{
   margin-top:60px;
+  font-weight:bold;
 }
