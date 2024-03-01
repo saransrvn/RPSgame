@@ -146,7 +146,7 @@
  <img src="images/${computerMove}-emoji.png"> Computer.`;
  }
  function updateScore() {
- document.querySelector('.js-score').innerHTML = `Wins:${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`;
+ document.querySelector('.js-score').innerHTML = `Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`;
  }
  function pickComputerMove(){
  const randomNumber = Math.random();
